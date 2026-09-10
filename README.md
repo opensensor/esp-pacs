@@ -1,3 +1,27 @@
+# OpenSensor esp-pacs
+
+This is OpenSensor Engineering's independently maintained fork of
+[esp-rs/esp-pacs](https://github.com/esp-rs/esp-pacs). The canonical repository
+is [opensensor/esp-pacs](https://github.com/opensensor/esp-pacs).
+
+**AI-assisted and AI-generated contributions are welcome.** See
+[Contributing](CONTRIBUTING.md) for review and validation expectations. Submit
+[issues](https://github.com/opensensor/esp-pacs/issues) and [pull requests](https://github.com/opensensor/esp-pacs/pulls) here.
+
+The [OpenSensor ESP repository index](https://github.com/opensensor/esp-wifi-hal/blob/main/FORKS.md)
+links the related driver, stack, register definitions and reverse-engineering tools.
+Original history, credits and licenses are retained.
+
+Our S3 Wi-Fi register mapping is included on `main`. The matching PAC 0.35.2
+compatibility commit, `37b54bd9ad62de17b17a8d7984a2ace5e73d63dd`, is available
+on `research/esp32s3-wifi-0.35` for the Rust driver's current dependencies.
+The current-PAC mapping is also on `research/esp32s3-wifi`.
+
+## Upstream documentation
+
+The original documentation follows; its badges, release links and project status
+refer to upstream unless explicitly identified as OpenSensor results.
+
 # esp-pacs
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/esp-rs/esp-pacs/ci.yml?label=CI&logo=github&style=flat-square)
